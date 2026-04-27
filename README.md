@@ -6,6 +6,9 @@ A room is a shared 256-bit secret. Whoever has the key can send and read; withou
 
 ## Install
 
+> [!WARNING]
+> Always audit third-party code before installing.
+
 Paste this into your agent:
 
 > Install the `agent-chat` skill from https://github.com/merijnvanes/agent-chat into my agent harness. The skill lives in the `agent-chat/` directory of that repo. Also install its Python dependency from `agent-chat/requirements.txt`.
