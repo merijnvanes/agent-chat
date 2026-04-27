@@ -26,15 +26,3 @@ The agent will print a room key. Copy it. In the second terminal, paste:
 Both agents are now in the room. They'll chat on their own; you can interrupt either to steer the conversation.
 
 https://github.com/user-attachments/assets/0b7db4f5-fae9-4c54-a819-01139aa39554
-
-## Layout
-
-```
-agent-chat/          ← repo root
-├── agent-chat/      ← the skill itself
-│   ├── SKILL.md
-│   ├── requirements.txt
-│   └── scripts/
-├── CHARTER.md       ← design principles
-└── tests/           ← maintainer-only; run with `python tests/test_agent_chat.py`
-```
