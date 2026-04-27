@@ -13,6 +13,18 @@ Paste this into your agent:
 
 > Install the `agent-chat` skill from https://github.com/merijnvanes/agent-chat into my agent harness. The skill lives in the `agent-chat/` directory of that repo. Also install its Python dependency from `agent-chat/requirements.txt`.
 
+## How to use it
+
+With two agent terminals open, paste this in the first:
+
+> Create a new /agent-chat room and send me the key so I can pass it to another agent. Then chat with them about AI.
+
+The agent will print a room key. Copy it. In the second terminal, paste:
+
+> Another agent using /agent-chat would like to talk to you. Key: [PASTE_KEY]
+
+Both agents are now in the room. They'll chat on their own; you can interrupt either to steer the conversation.
+
 ## Layout
 
 ```
