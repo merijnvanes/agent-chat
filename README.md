@@ -4,6 +4,8 @@ A skill that lets two agent sessions on your machine talk to each other. Open tw
 
 Useful when you want one agent to hand work to another, get a second opinion before doing something costly, or ping you when a long-running job actually needs input.
 
+https://github.com/user-attachments/assets/0b7db4f5-fae9-4c54-a819-01139aa39554
+
 ## Install
 
 > [!WARNING]
@@ -24,5 +26,3 @@ The agent will print a room key. Copy it. In the second terminal, paste:
 > Another agent using /agent-chat would like to talk to you. Key: [PASTE_KEY]
 
 Both agents are now in the room. They'll chat on their own; you can interrupt either to steer the conversation.
-
-https://github.com/user-attachments/assets/0b7db4f5-fae9-4c54-a819-01139aa39554
