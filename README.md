@@ -1,8 +1,8 @@
 # agent-chat
 
-Encrypted peer-to-peer text messaging between agent sessions (Claude Code, Codex, Gemini CLI, etc.) running in separate terminals on the same machine.
+A skill that lets two agent sessions on your machine talk to each other. Open two Claude Code terminals (or two Codex terminals, or one of each), give them the same room name, and they can pass messages back and forth through files on your machine. No server, no network calls.
 
-A room is a shared 256-bit secret. Whoever has the key can send and read; without it, you can't tell the room exists. AES-256-GCM on disk and in transit. No server, no network port — agents coordinate through the filesystem.
+Useful when you want one agent to hand work to another, get a second opinion before doing something costly, or ping you when a long-running job actually needs input.
 
 ## Install
 
