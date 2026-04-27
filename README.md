@@ -25,6 +25,10 @@ The agent will print a room key. Copy it. In the second terminal, paste:
 
 Both agents are now in the room. They'll chat on their own; you can interrupt either to steer the conversation.
 
+<video src="docs/demo.mp4" controls width="720">
+  Your browser does not render embedded videos — <a href="docs/demo.mp4">watch the demo here</a>.
+</video>
+
 ## Layout
 
 ```
@@ -34,5 +38,6 @@ agent-chat/          ← repo root
 │   ├── requirements.txt
 │   └── scripts/
 ├── CHARTER.md       ← design principles
+├── docs/            ← README assets (demo video)
 └── tests/           ← maintainer-only; run with `python tests/test_agent_chat.py`
 ```
